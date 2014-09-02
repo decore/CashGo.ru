@@ -1,0 +1,72 @@
+@media all and (-webkit-min-device-pixel-ratio:0) {
+  /* line 8, ../../sass/sources/header.sass */
+  #go {
+    position: relative;
+    top: -32px;
+    right: 0;
+  }
+}
+/* line 12, ../../sass/sources/header.sass */
+#header {
+  position: relative;
+}
+/* line 14, ../../sass/sources/header.sass */
+#header p {
+  line-height: 166%;
+  position: absolute;
+  top: 49px;
+  left: 331px;
+}
+
+/* line 19, ../../sass/sources/header.sass */
+#logo {
+  margin-top: 23px;
+}
+
+/* line 21, ../../sass/sources/header.sass */
+#nav-box {
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -o-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -khtml-border-radius: 28px;
+  border-radius: 28px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80c1e2), color-stop(100%, #0279a7));
+  background-image: -webkit-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: -moz-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: -o-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: -ms-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: linear-gradient(top, #80c1e2, #0279a7);
+  -moz-box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  -webkit-box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  -o-box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  height: 60px;
+  width: 100%;
+  margin-top: 28px;
+  display: table;
+}
+
+/* line 29, ../../sass/sources/header.sass */
+#nav {
+  display: table-cell;
+  width: 100%;
+  padding: 0 9%;
+}
+/* line 33, ../../sass/sources/header.sass */
+#nav a {
+  float: left;
+  text-decoration: none;
+  display: table-row;
+  width: 11.111%;
+  text-align: center;
+  padding: 24px 0;
+}
+/* line 40, ../../sass/sources/header.sass */
+#nav a:hover {
+  background-color: #1181ae;
+}
+/* line 42, ../../sass/sources/header.sass */
+#nav a li {
+  list-style: none;
+}

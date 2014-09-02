@@ -1,0 +1,58 @@
+/* line 3, ../../sass/sources/footer.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 8, ../../sass/sources/footer.sass */
+#wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 11, ../../sass/sources/footer.sass */
+* html #wrapper {
+  height: 100%;
+}
+
+/* line 13, ../../sass/sources/footer.sass */
+#footer {
+  height: 100px;
+  position: relative;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+/* line 18, ../../sass/sources/footer.sass */
+#footer img {
+  float: right;
+  margin: -27px 0 0 15px;
+}
+/* line 21, ../../sass/sources/footer.sass */
+#footer #footer-logo {
+  width: 176px;
+  float: left;
+  margin: 12px 0 0 0;
+  padding-right: 15px;
+}
+/* line 26, ../../sass/sources/footer.sass */
+#footer p {
+  padding-top: 35px;
+  font-size: 0.682em;
+  color: #494c50;
+}
+
+/* line 30, ../../sass/sources/footer.sass */
+#footer-gradient {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #d5d5d5), color-stop(51%, #dfdfdf), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  min-width: 980px;
+}

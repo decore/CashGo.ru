@@ -1,0 +1,5 @@
+/* line 1, ../../sass/sources/layout.sass */
+#pmOverlay {
+  text-align: center;
+  z-index: 1000;
+}

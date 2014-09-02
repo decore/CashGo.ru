@@ -1,0 +1,31 @@
+﻿@import compass/css3/border-radius
+@import compass/css3/box-shadow
+@import compass/utilities/tables
+@import compass/css3/gradient
+$table-color: #ffffff
+.slider
+	font-size: 0.875em
+	color: #4b5c6c
+	height: 42px
+	+linear-gradient(color-stops(#edf8fd,#d1ecf9),top)
+	position: relative
+	span
+		margin: 0 auto
+		padding-top: 15px
+		display: table
+	#bn-prev, #bn-next
+		position: absolute
+		top: 10px
+		display: block
+		width: 23px
+		height: 23px
+	#bn-prev
+		background: url(../img/bn-prev.png) no-repeat 0 center
+		left: 20%
+	#bn-next
+		background: url(../img/bn-next.png) no-repeat 0 center
+		width: 23px
+		height: 23px
+		right: 20%
+//c6d7df//d9eefa aroubd bottom
+//d2d2d2//f1f0ec inside bottom

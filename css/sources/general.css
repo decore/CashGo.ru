@@ -1,0 +1,13 @@
+/* line 1, ../../sass/sources/general.sass */
+body {
+  padding: 0 1.013%;
+  background: url(../img/bg.jpg) repeat-x center 0;
+  min-width: 980px;
+}
+
+/* line 6, ../../sass/sources/general.sass */
+.container {
+  width: 97.96%;
+  margin: 0 auto;
+  max-width: 1180px;
+}

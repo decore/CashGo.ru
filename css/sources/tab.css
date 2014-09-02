@@ -1,0 +1,25 @@
+/* line 3, ../../sass/sources/tab.sass */
+.tab a {
+  padding: 24px 0;
+  width: 11.111%;
+  float: left;
+  display: table-row;
+  text-align: center;
+  width: 25%;
+  float: left;
+  font-size: 0.875em;
+  color: #4b5c6c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf8fd), color-stop(100%, #d1ecf9));
+  background-image: -webkit-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -moz-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -o-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -ms-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: linear-gradient(top, #edf8fd, #d1ecf9);
+  padding: 14px 0;
+}
+/* line 15, ../../sass/sources/tab.sass */
+.tab a:active {
+  background: #4a7b96;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+/* line 4, ../../sass/sources/chat.sass */
+#chat ul {
+  padding: 15px;
+}
+/* line 6, ../../sass/sources/chat.sass */
+#chat ul li {
+  font-size: 0.75em;
+  display: block;
+}
+/* line 9, ../../sass/sources/chat.sass */
+#chat ul li .autor {
+  text-decoration: none;
+  color: #2c536a;
+  padding-left: 10px;
+}
+/* line 13, ../../sass/sources/chat.sass */
+#chat ul li span {
+  color: #494d50;
+  font-size: 1.05em;
+}
+/* line 16, ../../sass/sources/chat.sass */
+#chat ul li p {
+  line-height: 123%;
+  padding: 6px 0 6px 47px;
+  color: #494d50;
+  overflow: hidden;
+  *zoom: 1;
+}

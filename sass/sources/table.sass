@@ -1,0 +1,27 @@
+@import compass/css3/gradient
+@import compass/utilities/tables
+$table-color: #ffffff
+table
+	border-collapse: collapse
+	+inner-table-borders(1px,#d4d6d8)
+	+outer-table-borders(1px,#d4d6d8)
+	+alternating-rows-and-columns(#f9f3da, $table-color, none)
+	width: 100%
+th
+	background: #ccc
+	text-align: left
+	text-align: center
+	font-weight: normal
+	color: #fff
+	+linear-gradient(color-stops(#407694,#285066),top)
+	border: 1px solid #d4d6d8
+	height: 39px
+td
+	height: 33px
+	color: #494d50
+	padding: 0 15px
+td, th
+	border: 1px solid #800
+	vertical-align: middle
+	font-size: 0.75em
+	

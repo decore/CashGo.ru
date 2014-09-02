@@ -1,0 +1,808 @@
+@charset "US-ASCII";
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/myriadpro-regular-webfont.eot");
+  src: local("Myriad Pro"), local("MyriadProRegular"), url("../fonts/myriadpro-regular-webfont.woff") format("woff"), url("../fonts/myriadpro-regular-webfont.ttf") format("truetype"), url("../fonts/myriadpro-regular-webfont.svg#webfontnQrkO5CD") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+a {
+  color: #0d4668;
+}
+
+/* line 14, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 16, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+#statistics a {
+  text-decoration: none;
+}
+
+/* line 18, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+.grid_left #statistics ul li {
+  font-size: 0.9em;
+  color: #494d50;
+}
+/* line 21, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+.grid_left #statistics ul li span {
+  color: #2581b6;
+}
+
+/* line 23, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+#header p {
+  color: #fbfcfd;
+  font-size: 0.875em;
+}
+/* line 26, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+#header p span {
+  color: #1c618d;
+}
+/* line 28, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+#header p span#beige {
+  color: #f2e590;
+}
+
+/* line 30, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+#login-form .ref {
+  color: #1c618d;
+  font-size: 0.75em;
+  margin: 0 46px 0 7px;
+}
+
+/* line 34, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/fonts.sass */
+#nav a li {
+  font-size: 0.875em;
+  color: #f9fbfe;
+}
+
+/* line 1, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 18, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+body {
+  line-height: 1;
+}
+
+/* line 21, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 27, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+*:focus {
+  outline: 0;
+}
+
+/* line 35, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+ins {
+  text-decoration: none;
+}
+
+/* line 38, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+del {
+  text-decoration: line-through;
+}
+
+/* line 41, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/general.sass */
+body {
+  padding: 0 1.013%;
+  background: url(../img/bg.jpg) repeat-x center 0;
+  min-width: 980px;
+}
+
+/* line 6, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/general.sass */
+.container {
+  width: 97.96%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+  /* line 8, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+  #go {
+    position: relative;
+    top: -32px;
+    right: 0;
+  }
+}
+/* line 12, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#header {
+  position: relative;
+}
+/* line 14, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#header p {
+  line-height: 166%;
+  position: absolute;
+  top: 49px;
+  left: 331px;
+}
+
+/* line 19, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#logo {
+  margin-top: 23px;
+}
+
+/* line 21, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#nav-box {
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -o-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -khtml-border-radius: 28px;
+  border-radius: 28px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80c1e2), color-stop(100%, #0279a7));
+  background-image: -webkit-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: -moz-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: -o-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: -ms-linear-gradient(top, #80c1e2, #0279a7);
+  background-image: linear-gradient(top, #80c1e2, #0279a7);
+  -moz-box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  -webkit-box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  -o-box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  box-shadow: 0 10px 10px -10px #1e1e1e, 0 -13px 15px -12px #f9f9f9;
+  height: 60px;
+  width: 100%;
+  margin-top: 28px;
+  display: table;
+}
+
+/* line 29, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#nav {
+  display: table-cell;
+  width: 100%;
+  padding: 0 9%;
+}
+/* line 33, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#nav a {
+  float: left;
+  text-decoration: none;
+  display: table-row;
+  width: 11.111%;
+  text-align: center;
+  padding: 24px 0;
+}
+/* line 40, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#nav a:hover {
+  background-color: #1181ae;
+}
+/* line 42, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/header.sass */
+#nav a li {
+  list-style: none;
+}
+
+/* line 1, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/layout.sass */
+#pmOverlay {
+  text-align: center;
+  z-index: 1000;
+}
+
+/* line 6, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.col-left {
+  margin-top: 24px;
+}
+
+/* line 9, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.grid_left #statistics {
+  margin-left: 7px;
+  margin-top: 28px;
+  margin-bottom: 39px;
+}
+/* line 13, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.grid_left #statistics span {
+  font-family: Myriad Pro, MyriadProRegular, Arial, sans-serif;
+  font-size: 1.125em;
+  color: #385262;
+  margin: 0px 0px 0px 0px;
+}
+/* line 18, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.grid_left #statistics ul {
+  margin: 0px 0px 0px -12px;
+}
+/* line 20, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.grid_left #statistics ul li {
+  margin: 12px 0 -12px 0px;
+  padding-left: 46px;
+  line-height: 248%;
+  background: url(../img/0.png) no-repeat 0 center;
+}
+/* line 25, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.grid_left #statistics ul li:hover {
+  background: url(../img/00.png) no-repeat 0 center;
+}
+/* line 27, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.grid_left #statistics ul li span {
+  font-weight: 1em;
+}
+
+/* line 29, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.box, .downbox {
+  -moz-box-shadow: #e1dfdf 0 0 3px inset;
+  -webkit-box-shadow: #e1dfdf 0 0 3px inset;
+  -o-box-shadow: #e1dfdf 0 0 3px inset;
+  box-shadow: #e1dfdf 0 0 3px inset;
+  background: white;
+  margin-bottom: 15px;
+}
+
+/* line 33, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.box-header, .alt-box-header {
+  -moz-box-shadow: #e1dfdf 0 0 3px inset;
+  -webkit-box-shadow: #e1dfdf 0 0 3px inset;
+  -o-box-shadow: #e1dfdf 0 0 3px inset;
+  box-shadow: #e1dfdf 0 0 3px inset;
+  font-family: Myriad Pro, MyriadProRegular, Arial, sans-serif;
+  padding: 14px 16px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeef), color-stop(100%, #dcd9d9));
+  background-image: -webkit-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: -moz-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: -o-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: -ms-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: linear-gradient(top, #eeeeef, #dcd9d9);
+  display: block;
+  color: #385262;
+}
+/* line 40, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.box-header a, .alt-box-header a {
+  float: right;
+  font-size: 0.761em;
+  color: #415262;
+  margin-top: 5px;
+}
+
+/* line 45, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.alt-box-header {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0e576), color-stop(100%, #fdc35c));
+  background-image: -webkit-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: -moz-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: -o-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: -ms-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: linear-gradient(top, #f0e576, #fdc35c);
+}
+
+/* line 49, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.downbox {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* line 52, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.downbox .box-header, .downbox .alt-box-header {
+  background: none;
+  box-shadow: none;
+  font-size: 1.5em;
+  border-bottom: 3px solid #bde4f9;
+  padding-top: 0;
+  padding-bottom: 8px;
+  padding-left: 0;
+  margin-bottom: 16px;
+}
+/* line 61, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.downbox .box-header a, .downbox .alt-box-header a {
+  font-size: 0.583em;
+}
+
+/* line 64, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+#news a {
+  font-size: 0.75em;
+  color: #0d4668;
+  display: block;
+}
+
+/* line 68, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.new {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 16px;
+}
+/* line 71, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.new .date {
+  float: left;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -o-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -khtml-border-radius: 9px;
+  border-radius: 9px;
+  width: 61px;
+  background: #a6cee4;
+  color: white;
+  font-size: 0.75em;
+  padding: 5px 0 5px 0px;
+  text-align: center;
+  display: table;
+  margin-right: 10px;
+}
+/* line 82, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.new .date span {
+  font-size: 2.6em;
+  display: block;
+  margin-bottom: -13px;
+}
+/* line 86, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-left.sass */
+.new a {
+  padding-top: 5px;
+  padding-right: 10px;
+  line-height: 115%;
+}
+
+/* line 5, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-right.sass */
+.col-right {
+  margin-top: 24px;
+}
+
+/* line 7, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-right.sass */
+#block {
+  float: right;
+  height: 100%;
+  position: relative;
+}
+/* line 11, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-right.sass */
+#block img {
+  width: 100%;
+}
+/* line 13, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-right.sass */
+#block #b-registration, #block #b-start {
+  position: absolute;
+  display: block;
+  width: 32%;
+  height: 14%;
+  -moz-border-radius: 99px;
+  -webkit-border-radius: 99px;
+  -o-border-radius: 99px;
+  -ms-border-radius: 99px;
+  -khtml-border-radius: 99px;
+  border-radius: 99px;
+}
+/* line 19, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-right.sass */
+#block #b-registration {
+  top: 57%;
+  left: 7.7%;
+}
+/* line 22, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/col-right.sass */
+#block #b-start {
+  top: 58%;
+  right: 10.3%;
+}
+
+/* line 2, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.container {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 4, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.col-left {
+  margin-right: 72%;
+  width: 28%;
+}
+
+/* line 7, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.col-right {
+  margin-left: 28%;
+  width: 72%;
+}
+
+/* line 10, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.grid_left,
+.grid_100,
+.grid_50,
+.grid_33 {
+  display: inline;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* line 18, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.grid_left {
+  margin-left: 6%;
+  width: 86%;
+}
+
+/* line 21, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.grid_100 {
+  width: 98%;
+}
+
+/* line 23, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.grid_50 {
+  width: 48%;
+}
+
+/* line 25, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.grid_33 {
+  width: 31.333%;
+}
+
+/* line 28, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+
+/* line 35, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 38, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 41, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+.clearfix {
+  display: block;
+}
+
+/* line 43, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/grid.sass */
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear {
+  background: none;
+  border: 0;
+  clear: both;
+  display: block;
+  float: none;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 4, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/table.sass */
+table {
+  border-collapse: collapse;
+  border: 1px solid #d4d6d8;
+  width: 100%;
+}
+/* line 14, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table th, table td {
+  border-right: 1px solid #d4d6d8;
+  border-bottom: 1px solid #d4d6d8;
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+/* line 21, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table th:last-child, table th.last, table td:last-child, table td.last {
+  border-right-width: 0px;
+}
+/* line 29, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table tbody tr:last-child th, table tbody tr:last-child td, table tfoot tr:last-child th, table tfoot tr:last-child td {
+  border-bottom-width: 0px;
+}
+/* line 32, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table tbody tr.last th, table tbody tr.last td, table tfoot tr.last th, table tfoot tr.last td {
+  border-bottom-width: 0px;
+}
+/* line 4, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table thead th {
+  border-bottom: 1px solid #d4d6d8;
+}
+/* line 7, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table tfoot th, table tfoot td {
+  border-top: 1px solid #d4d6d8;
+}
+/* line 10, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table th:first-child {
+  border-right: 1px solid #d4d6d8;
+}
+/* line 2, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table th {
+  background-color: white;
+}
+/* line 4, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table th.even, table th:nth-child(2n) {
+  background-color: white-none;
+}
+/* line 7, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.odd td {
+  background-color: white;
+}
+/* line 9, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.odd td.even, table tr.odd td:nth-child(2n) {
+  background-color: white-none;
+}
+/* line 12, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.even td {
+  background-color: #f9f3da;
+}
+/* line 14, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.even td.even, table tr.even td:nth-child(2n) {
+  background-color: #f9f3da-none;
+}
+/* line 17, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tfoot th, table tfoot td {
+  background-color: white;
+}
+/* line 19, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tfoot th.even, table tfoot th:nth-child(2n), table tfoot td.even, table tfoot td:nth-child(2n) {
+  background-color: white-none;
+}
+
+/* line 10, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/table.sass */
+th {
+  background: #cccccc;
+  text-align: left;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #407694), color-stop(100%, #285066));
+  background-image: -webkit-linear-gradient(top, #407694, #285066);
+  background-image: -moz-linear-gradient(top, #407694, #285066);
+  background-image: -o-linear-gradient(top, #407694, #285066);
+  background-image: -ms-linear-gradient(top, #407694, #285066);
+  background-image: linear-gradient(top, #407694, #285066);
+  border: 1px solid #d4d6d8;
+  height: 39px;
+}
+
+/* line 19, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/table.sass */
+td {
+  height: 33px;
+  color: #494d50;
+  padding: 0 15px;
+}
+
+/* line 23, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/table.sass */
+td, th {
+  border: 1px solid #880000;
+  vertical-align: middle;
+  font-size: 0.75em;
+}
+
+/* line 6, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/slider.sass */
+.slider {
+  font-size: 0.875em;
+  color: #4b5c6c;
+  height: 42px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf8fd), color-stop(100%, #d1ecf9));
+  background-image: -webkit-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -moz-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -o-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -ms-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: linear-gradient(top, #edf8fd, #d1ecf9);
+  position: relative;
+}
+/* line 12, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/slider.sass */
+.slider span {
+  margin: 0 auto;
+  padding-top: 15px;
+  display: table;
+}
+/* line 16, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/slider.sass */
+.slider #bn-prev, .slider #bn-next {
+  position: absolute;
+  top: 10px;
+  display: block;
+  width: 23px;
+  height: 23px;
+}
+/* line 22, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/slider.sass */
+.slider #bn-prev {
+  background: url(../img/bn-prev.png) no-repeat 0 center;
+  left: 20%;
+}
+/* line 25, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/slider.sass */
+.slider #bn-next {
+  background: url(../img/bn-next.png) no-repeat 0 center;
+  width: 23px;
+  height: 23px;
+  right: 20%;
+}
+
+/* line 3, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/tab.sass */
+.tab a {
+  padding: 24px 0;
+  width: 11.111%;
+  float: left;
+  display: table-row;
+  text-align: center;
+  width: 25%;
+  float: left;
+  font-size: 0.875em;
+  color: #4b5c6c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf8fd), color-stop(100%, #d1ecf9));
+  background-image: -webkit-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -moz-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -o-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -ms-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: linear-gradient(top, #edf8fd, #d1ecf9);
+  padding: 14px 0;
+}
+/* line 15, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/tab.sass */
+.tab a:active {
+  background: #4a7b96;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 3, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/articles.sass */
+.article span {
+  display: block;
+  font-size: 0.75em;
+  font-family: Arial, sans-serif;
+  color: #96c7e3;
+}
+/* line 8, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/articles.sass */
+.article img {
+  float: left;
+  margin: 18px 13px 10px 0;
+}
+/* line 11, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/articles.sass */
+.article a {
+  color: #0d4668;
+  font-size: 0.75em;
+  margin-top: 17px;
+  display: block;
+  line-height: 115%;
+}
+/* line 17, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/articles.sass */
+.article p {
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+  font-size: 0.875em;
+  color: #606362;
+}
+
+/* line 3, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 8, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+#wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 11, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+* html #wrapper {
+  height: 100%;
+}
+
+/* line 13, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+#footer {
+  height: 100px;
+  position: relative;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+/* line 18, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+#footer img {
+  float: right;
+  margin: -27px 0 0 15px;
+}
+/* line 21, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+#footer #footer-logo {
+  width: 176px;
+  float: left;
+  margin: 12px 0 0 0;
+  padding-right: 15px;
+}
+/* line 26, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+#footer p {
+  padding-top: 35px;
+  font-size: 0.682em;
+  color: #494c50;
+}
+
+/* line 30, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/footer.sass */
+#footer-gradient {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #d5d5d5), color-stop(51%, #dfdfdf), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #d5d5d5 50%, #dfdfdf 51%, #dfdfdf 100%);
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  min-width: 980px;
+}
+
+/* line 4, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/chat.sass */
+#chat ul {
+  padding: 15px;
+}
+/* line 6, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/chat.sass */
+#chat ul li {
+  font-size: 0.75em;
+  display: block;
+}
+/* line 9, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/chat.sass */
+#chat ul li .autor {
+  text-decoration: none;
+  color: #2c536a;
+  padding-left: 10px;
+}
+/* line 13, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/chat.sass */
+#chat ul li span {
+  color: #494d50;
+  font-size: 1.05em;
+}
+/* line 16, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/chat.sass */
+#chat ul li p {
+  line-height: 123%;
+  padding: 6px 0 6px 47px;
+  color: #494d50;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 2, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/lastcomm.sass */
+.comment {
+  font-size: 0.75em;
+  padding: 15px;
+  display: block;
+  background-color: #f9f3da;
+  margin-bottom: 4px;
+}
+/* line 8, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/lastcomm.sass */
+.comment a {
+  line-height: 115%;
+}
+/* line 10, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/lastcomm.sass */
+.comment .autor {
+  text-decoration: none;
+  color: #494d50;
+}
+/* line 13, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/lastcomm.sass */
+.comment span {
+  color: #494d50;
+}
+/* line 15, C:/Users/suenot/Dropbox/Work/010_cashgo.ru - копия/sass/sources/lastcomm.sass */
+.comment .message {
+  float: left;
+}

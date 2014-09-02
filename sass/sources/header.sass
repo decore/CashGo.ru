@@ -1,0 +1,43 @@
+﻿@import compass/css3/box-shadow
+@import compass/css3/border-radius
+@import compass/css3/gradient
+@import compass/utilities/general/clearfix
+@import compass/utilities/general/float
+@import compass/css3/box
+@media all and (-webkit-min-device-pixel-ratio:0)
+	#go
+		position: relative
+		top: -32px
+		right: 0
+#header
+	position: relative
+	p
+		line-height: 166%
+		position: absolute
+		top: 49px
+		left: 331px
+#logo
+	margin-top: 23px
+#nav-box
+	+border-radius(28px)
+	+linear-gradient(color-stops(#80c1e2,#0279a7),top)//+box-shadow(#828aa7 1px 1px 0px 0 ,#ebe8f7 1px 1px 1px 1px)
+	+box-shadow(0 10px 10px -10px #1E1E1E, 0 -13px 15px -12px #f9f9f9)
+	height: 60px
+	width: 100%
+	margin-top: 28px
+	display: table
+#nav
+	display: table-cell
+	width: 100%
+	padding: 0 9%
+	a
+		float: left// проверить, нужно ли это
+		text-decoration: none//margin: 0 1.76%
+		display: table-row
+		width: 11.111%
+		text-align: center
+		padding: 24px 0
+		&:hover
+			background-color: #1181ae
+		li
+			list-style: none

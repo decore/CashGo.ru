@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/myriadpro-regular-webfont.eot");
+  src: local("Myriad Pro"), local("MyriadProRegular"), url("../fonts/myriadpro-regular-webfont.woff") format("woff"), url("../fonts/myriadpro-regular-webfont.ttf") format("truetype"), url("../fonts/myriadpro-regular-webfont.svg#webfontnQrkO5CD") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../../sass/sources/fonts.sass */
+a {
+  color: #0d4668;
+}
+
+/* line 14, ../../sass/sources/fonts.sass */
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 16, ../../sass/sources/fonts.sass */
+#statistics a {
+  text-decoration: none;
+}
+
+/* line 18, ../../sass/sources/fonts.sass */
+.grid_left #statistics ul li {
+  font-size: 0.9em;
+  color: #494d50;
+}
+/* line 21, ../../sass/sources/fonts.sass */
+.grid_left #statistics ul li span {
+  color: #2581b6;
+}
+
+/* line 23, ../../sass/sources/fonts.sass */
+#header p {
+  color: #fbfcfd;
+  font-size: 0.875em;
+}
+/* line 26, ../../sass/sources/fonts.sass */
+#header p span {
+  color: #1c618d;
+}
+/* line 28, ../../sass/sources/fonts.sass */
+#header p span#beige {
+  color: #f2e590;
+}
+
+/* line 30, ../../sass/sources/fonts.sass */
+#login-form .ref {
+  color: #1c618d;
+  font-size: 0.75em;
+  margin: 0 46px 0 7px;
+}
+
+/* line 34, ../../sass/sources/fonts.sass */
+#nav a li {
+  font-size: 0.875em;
+  color: #f9fbfe;
+}

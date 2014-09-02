@@ -1,0 +1,28 @@
+/* line 3, ../../sass/sources/articles.sass */
+.article span {
+  display: block;
+  font-size: 0.75em;
+  font-family: Arial, sans-serif;
+  color: #96c7e3;
+}
+/* line 8, ../../sass/sources/articles.sass */
+.article img {
+  float: left;
+  margin: 18px 13px 10px 0;
+}
+/* line 11, ../../sass/sources/articles.sass */
+.article a {
+  color: #0d4668;
+  font-size: 0.75em;
+  margin-top: 17px;
+  display: block;
+  line-height: 115%;
+}
+/* line 17, ../../sass/sources/articles.sass */
+.article p {
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+  font-size: 0.875em;
+  color: #606362;
+}

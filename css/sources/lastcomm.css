@@ -1,0 +1,25 @@
+/* line 2, ../../sass/sources/lastcomm.sass */
+.comment {
+  font-size: 0.75em;
+  padding: 15px;
+  display: block;
+  background-color: #f9f3da;
+  margin-bottom: 4px;
+}
+/* line 8, ../../sass/sources/lastcomm.sass */
+.comment a {
+  line-height: 115%;
+}
+/* line 10, ../../sass/sources/lastcomm.sass */
+.comment .autor {
+  text-decoration: none;
+  color: #494d50;
+}
+/* line 13, ../../sass/sources/lastcomm.sass */
+.comment span {
+  color: #494d50;
+}
+/* line 15, ../../sass/sources/lastcomm.sass */
+.comment .message {
+  float: left;
+}

@@ -1,0 +1,39 @@
+/* line 6, ../../sass/sources/slider.sass */
+.slider {
+  font-size: 0.875em;
+  color: #4b5c6c;
+  height: 42px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf8fd), color-stop(100%, #d1ecf9));
+  background-image: -webkit-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -moz-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -o-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: -ms-linear-gradient(top, #edf8fd, #d1ecf9);
+  background-image: linear-gradient(top, #edf8fd, #d1ecf9);
+  position: relative;
+}
+/* line 12, ../../sass/sources/slider.sass */
+.slider span {
+  margin: 0 auto;
+  padding-top: 15px;
+  display: table;
+}
+/* line 16, ../../sass/sources/slider.sass */
+.slider #bn-prev, .slider #bn-next {
+  position: absolute;
+  top: 10px;
+  display: block;
+  width: 23px;
+  height: 23px;
+}
+/* line 22, ../../sass/sources/slider.sass */
+.slider #bn-prev {
+  background: url(../img/bn-prev.png) no-repeat 0 center;
+  left: 20%;
+}
+/* line 25, ../../sass/sources/slider.sass */
+.slider #bn-next {
+  background: url(../img/bn-next.png) no-repeat 0 center;
+  width: 23px;
+  height: 23px;
+  right: 20%;
+}

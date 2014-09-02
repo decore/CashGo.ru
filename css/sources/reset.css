@@ -1,0 +1,61 @@
+/* line 1, ../../sass/sources/reset.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 18, ../../sass/sources/reset.sass */
+body {
+  line-height: 1;
+}
+
+/* line 21, ../../sass/sources/reset.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../sass/sources/reset.sass */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 27, ../../sass/sources/reset.sass */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../sass/sources/reset.sass */
+*:focus {
+  outline: 0;
+}
+
+/* line 35, ../../sass/sources/reset.sass */
+ins {
+  text-decoration: none;
+}
+
+/* line 38, ../../sass/sources/reset.sass */
+del {
+  text-decoration: line-through;
+}
+
+/* line 41, ../../sass/sources/reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

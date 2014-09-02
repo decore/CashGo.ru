@@ -1,0 +1,149 @@
+/* line 6, ../../sass/sources/col-left.sass */
+.col-left {
+  margin-top: 24px;
+}
+
+/* line 9, ../../sass/sources/col-left.sass */
+.grid_left #statistics {
+  margin-left: 7px;
+  margin-top: 28px;
+  margin-bottom: 39px;
+}
+/* line 13, ../../sass/sources/col-left.sass */
+.grid_left #statistics span {
+  font-family: Myriad Pro, MyriadProRegular, Arial, sans-serif;
+  font-size: 1.125em;
+  color: #385262;
+  margin: 0px 0px 0px 0px;
+}
+/* line 18, ../../sass/sources/col-left.sass */
+.grid_left #statistics ul {
+  margin: 0px 0px 0px -12px;
+}
+/* line 20, ../../sass/sources/col-left.sass */
+.grid_left #statistics ul li {
+  margin: 12px 0 -12px 0px;
+  padding-left: 46px;
+  line-height: 248%;
+  background: url(../img/0.png) no-repeat 0 center;
+}
+/* line 25, ../../sass/sources/col-left.sass */
+.grid_left #statistics ul li:hover {
+  background: url(../img/00.png) no-repeat 0 center;
+}
+/* line 27, ../../sass/sources/col-left.sass */
+.grid_left #statistics ul li span {
+  font-weight: 1em;
+}
+
+/* line 29, ../../sass/sources/col-left.sass */
+.box, .downbox {
+  -moz-box-shadow: #e1dfdf 0 0 3px inset;
+  -webkit-box-shadow: #e1dfdf 0 0 3px inset;
+  -o-box-shadow: #e1dfdf 0 0 3px inset;
+  box-shadow: #e1dfdf 0 0 3px inset;
+  background: white;
+  margin-bottom: 15px;
+}
+
+/* line 33, ../../sass/sources/col-left.sass */
+.box-header, .alt-box-header {
+  -moz-box-shadow: #e1dfdf 0 0 3px inset;
+  -webkit-box-shadow: #e1dfdf 0 0 3px inset;
+  -o-box-shadow: #e1dfdf 0 0 3px inset;
+  box-shadow: #e1dfdf 0 0 3px inset;
+  font-family: Myriad Pro, MyriadProRegular, Arial, sans-serif;
+  padding: 14px 16px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeef), color-stop(100%, #dcd9d9));
+  background-image: -webkit-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: -moz-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: -o-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: -ms-linear-gradient(top, #eeeeef, #dcd9d9);
+  background-image: linear-gradient(top, #eeeeef, #dcd9d9);
+  display: block;
+  color: #385262;
+}
+/* line 40, ../../sass/sources/col-left.sass */
+.box-header a, .alt-box-header a {
+  float: right;
+  font-size: 0.761em;
+  color: #415262;
+  margin-top: 5px;
+}
+
+/* line 45, ../../sass/sources/col-left.sass */
+.alt-box-header {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0e576), color-stop(100%, #fdc35c));
+  background-image: -webkit-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: -moz-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: -o-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: -ms-linear-gradient(top, #f0e576, #fdc35c);
+  background-image: linear-gradient(top, #f0e576, #fdc35c);
+}
+
+/* line 49, ../../sass/sources/col-left.sass */
+.downbox {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* line 52, ../../sass/sources/col-left.sass */
+.downbox .box-header, .downbox .alt-box-header {
+  background: none;
+  box-shadow: none;
+  font-size: 1.5em;
+  border-bottom: 3px solid #bde4f9;
+  padding-top: 0;
+  padding-bottom: 8px;
+  padding-left: 0;
+  margin-bottom: 16px;
+}
+/* line 61, ../../sass/sources/col-left.sass */
+.downbox .box-header a, .downbox .alt-box-header a {
+  font-size: 0.583em;
+}
+
+/* line 64, ../../sass/sources/col-left.sass */
+#news a {
+  font-size: 0.75em;
+  color: #0d4668;
+  display: block;
+}
+
+/* line 68, ../../sass/sources/col-left.sass */
+.new {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 16px;
+}
+/* line 71, ../../sass/sources/col-left.sass */
+.new .date {
+  float: left;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -o-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -khtml-border-radius: 9px;
+  border-radius: 9px;
+  width: 61px;
+  background: #a6cee4;
+  color: white;
+  font-size: 0.75em;
+  padding: 5px 0 5px 0px;
+  text-align: center;
+  display: table;
+  margin-right: 10px;
+}
+/* line 82, ../../sass/sources/col-left.sass */
+.new .date span {
+  font-size: 2.6em;
+  display: block;
+  margin-bottom: -13px;
+}
+/* line 86, ../../sass/sources/col-left.sass */
+.new a {
+  padding-top: 5px;
+  padding-right: 10px;
+  line-height: 115%;
+}
